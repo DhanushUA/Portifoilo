@@ -4,11 +4,11 @@ import CardGroup from 'react-bootstrap/CardGroup';
 function Project() {
 
  const boxStyle = {
-    backgroundColor: '#fef9d7',
+    backgroundColor: '',
     padding: '20px',
     borderRadius: '10px',
     textAlign: 'center',
-    color:'black',
+    color:'#000066',
   };
 
 
@@ -22,7 +22,7 @@ function Project() {
 
     
       <CardGroup>
-        <Card>
+        <Card style={{ border: 'none' }}>
           <Card.Img variant="top" src="https://www.cplace.com/wp-content/uploads/2024/12/Media-Only_1-scaled.jpeg" />
           <Card.Body>
             <Card.Title>PROJECT ON Artifical Inteligence </Card.Title>
@@ -34,7 +34,7 @@ function Project() {
             <small className="text-muted"></small>
           </Card.Footer>
         </Card>
-        <Card>
+        <Card style={{ border: 'none' }}>
           <Card.Img variant="top" src="https://plus.unsplash.com/premium_photo-1681487870238-4a2dfddc6bcb?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dG8lMjBkbyUyMGxpc3R8ZW58MHx8MHx8fDA%3D" />
           <Card.Body>
             <Card.Title>TODO-LIST</Card.Title>
@@ -46,7 +46,7 @@ function Project() {
             <small className="text-muted"></small>
           </Card.Footer>
         </Card>
-        <Card>
+        <Card style={{ border: 'none' }}>
           <Card.Img variant="top" src="https://uploads.sitepoint.com/wp-content/uploads/2019/04/155530806824.jpg" />
           <Card.Body>
             <Card.Title>GAME DEVELOPMENT</Card.Title>
