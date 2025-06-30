@@ -24,7 +24,7 @@ function BasicExample() {
               <FaGithub size={24} color="#000" />
             </a>
             <a href="https://www.linkedin.com/in/dhanush-a-339823253/" target="_blank" rel="noopener noreferrer">
-              <FaLinkedin size={24} color="#0077B5" />
+              <FaLinkedin size={24} color="#0077B5" /> 
             </a>
           </div>
         </Navbar.Collapse>
